@@ -8,3 +8,8 @@ application: tester {
     core_api_methods: ["all_dashboards","search_content_favorites", "search_dashboards", "me"]
   }
 }
+
+constant: CONNECTION_NAME {
+  value: "choose-connection"
+  export: override_required
+}
