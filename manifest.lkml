@@ -1,5 +1,3 @@
-project_name: "tester"
-
 application: tester {
   label: "Dynamic Dashboard Control Tester"
   file: "dist/bundle.js"
