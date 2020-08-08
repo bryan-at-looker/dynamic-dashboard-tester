@@ -2,7 +2,7 @@ project_name: "tester"
 
 application: tester {
   label: "Dynamic Dashboard Control Tester"
-  url: "http://localhost:8080/bundle.js"
+  file: "dist/bundle.js"
   entitlements: {
     local_storage: yes
     allow_same_origin: yes
